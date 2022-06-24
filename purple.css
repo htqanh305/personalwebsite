@@ -1,0 +1,17 @@
+:root{ /*so that when we change theme, we can easily change the colors here*/
+    --mainColor:  #a686b0;
+    --secondaryColor: #9a74b0;
+
+    --borderColor: #494848;
+
+
+    --mainText:black; /*variable to use across the site*/
+    --secondaryText: #252525; 
+
+    --themeDotBorder: rgb(102, 37, 132); 
+
+    --previewBg: rgba(197, 129, 218, 0.804);
+    --previewShadow: #825293; 
+
+    --buttonColor: rgb(78, 5, 96);
+} 
