@@ -1,14 +1,14 @@
 :root{ /*so that when we change theme, we can easily change the colors here*/
-    --mainColor:  #a686b0;
-    --secondaryColor: #9a74b0;
+    --mainColor:  #3e0b4d;
+    --secondaryColor: #4f0474;
 
-    --borderColor: #494848;
+    --borderColor: rgb(207, 135, 240);
 
 
-    --mainText:black; /*variable to use across the site*/
-    --secondaryText: #252525; 
+    --mainText:#fff; /*variable to use across the site*/
+    --secondaryText: #fff7d0; 
 
-    --themeDotBorder: rgb(102, 37, 132); 
+    --themeDotBorder: rgb(207, 135, 240); 
 
     --previewBg: rgba(197, 129, 218, 0.804);
     --previewShadow: #825293; 
