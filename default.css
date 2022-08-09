@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6, strong{
 
 }
 
+h3{
+    font-weight: bold;
+}
+
 p, li, span, label, input, textarea{
     color: var(--secondaryText);
     font-family: 'Nunito', sans-serif;
@@ -220,13 +224,6 @@ h6 { font-size: 16px;}
     padding-bottom: 50px;
 }
 
-#preview-shadow{
-    background-color: var(--previewShadow);
-    width: 300px;
-    height: auto;
-    padding-left: 30px;
-    padding-top: 30px;
-}
 
 #preview{
     width: 300px;
@@ -235,6 +232,14 @@ h6 { font-size: 16px;}
     background-color: var(--previewBg);
     padding: 10px; 
     position: relative; /*so that the dots will be corners of this div*/
+}
+
+#preview-shadow {
+    background-color: var(--previewShadow);
+    width: 300px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .corner{
@@ -276,16 +281,26 @@ h6 { font-size: 16px;}
     gap: 100px; /*gap for the columns*/
 }
 
+/* .about-me{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 100px; 
+}*/
+
+
 #skills{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
+    margin-bottom: 30px;
 }
 
 .social-links{
     display: grid;
     align-content: center;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #linkedIn {
