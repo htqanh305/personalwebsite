@@ -27,3 +27,8 @@ li{
 .corner{
     border: 1.5px solid var(--mainColor);
 }
+
+a{
+    text-decoration: none;
+    color: #f6e5e5
+}

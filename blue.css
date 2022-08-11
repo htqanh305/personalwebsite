@@ -16,3 +16,7 @@
     --buttonColor: rgb(28, 32, 62);
 } 
 
+a{
+    text-decoration: none;
+    color: #fff7d0
+}
