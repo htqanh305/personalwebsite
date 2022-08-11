@@ -1,17 +1,29 @@
 :root{ /*so that when we change theme, we can easily change the colors here*/
-    --mainColor:  #3e0b4d;
-    --secondaryColor: #4f0474;
+    --mainColor:  #513252;
+    --secondaryColor: #5c324f;
 
-    --borderColor: rgb(207, 135, 240);
+    --borderColor: #943a5a;
 
 
-    --mainText:#fff; /*variable to use across the site*/
-    --secondaryText: #fff7d0; 
+    --mainText:#FFC18E; /*variable to use across the site*/
+    --secondaryText: #f6e5e5; 
 
-    --themeDotBorder: rgb(207, 135, 240); 
+    --themeDotBorder: #943a5a; 
 
-    --previewBg: rgba(197, 129, 218, 0.804);
-    --previewShadow: #825293; 
+    --previewBg: rgba(148, 58, 89, 0.703);
+    --previewShadow: #FFC18E; 
 
-    --buttonColor: rgb(78, 5, 96);
+    --buttonColor: #943a5a;
 } 
+
+li{
+    color: #513252;
+}
+
+#preview{
+    border: 1.5px solid var(--mainColor);
+}
+
+.corner{
+    border: 1.5px solid var(--mainColor);
+}

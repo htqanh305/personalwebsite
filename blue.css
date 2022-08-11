@@ -5,7 +5,7 @@
     --borderColor: #5d88ac;
 
 
-    --mainText:#fff; /*variable to use across the site*/
+    --mainText:rgb(165, 208, 235); /*variable to use across the site*/
     --secondaryText: #fff7d0; 
 
     --themeDotBorder: rgb(140, 206, 239); 
@@ -13,5 +13,6 @@
     --previewBg: rgba(7, 35, 53, 0.804);
     --previewShadow: #07162e; 
 
-    --buttonColor: rgb(44, 163, 227);
+    --buttonColor: rgb(28, 32, 62);
 } 
+

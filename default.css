@@ -10,7 +10,7 @@
 
     --themeDotBorder: rgb(18, 49, 47); 
 
-    --previewBg: rgba(240, 240, 240, 0.804);
+    --previewBg: rgba(239, 237, 237, 0.3);
     --previewShadow: #f3f3f3; 
 
     --buttonColor: black;
@@ -199,15 +199,15 @@ h6 { font-size: 16px;}
 }
 
 #blue-mode{
-    background-color: rgb(84, 156, 232);
+    background-color: #050e46;
 }
 
 #green-mode{
-    background-color: rgb(86, 183, 86);
+    background-color: #93e4c1;
 }
 
 #purple-mode{
-    background-color: rgb(176, 72, 210);
+    background-color: #CA4E79;
 }
 
 #setting-note{
@@ -228,7 +228,7 @@ h6 { font-size: 16px;}
 #preview{
     width: 300px;
     height: auto;
-    border: 1.5px solid #345bb1;
+    border: 1.5px solid var(--borderColor);
     background-color: var(--previewBg);
     padding: 10px; 
     position: relative; /*so that the dots will be corners of this div*/
@@ -246,7 +246,7 @@ h6 { font-size: 16px;}
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    border: 1.5px solid #345bb1;
+    border: 1.5px solid var(--borderColor);
     background-color: #fff;
     position: absolute; 
 }
