@@ -22,9 +22,29 @@ html, body{
     margin: 0;
 }
 
+html { scroll-behavior: smooth;}
+
 body *{
     transition: 0.5s; /*when click to change theme, delay a bit*/
 }
+
+/*fade in effect when page loads*/
+body {
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
 
 h1, h2, h3, h4, h5, h6, strong{
     color: var(--mainText);
@@ -45,6 +65,7 @@ p, li, span, label, input, textarea{
 
 a{
     text-decoration: none;
+    font-weight: bold;
     color: #345bb1
 }
 
@@ -58,6 +79,7 @@ h3 { font-size: 28px;}
 h4 { font-size: 24px;}
 h5 { font-size: 20px;}
 h6 { font-size: 16px;}
+
 
 .s1{
     background-color: var(--mainColor);
@@ -348,8 +370,11 @@ h6 { font-size: 16px;}
     font-size: 14px;
 }
 
+.post-describe{
+    font-size: 18px;
+}
+
 .work-link{
-    font-weight: bold;
     color: #345bb1;
 }
 
@@ -392,6 +417,7 @@ h6 { font-size: 16px;}
     background-color: var(--buttonColor);
     border: none;
 }
+
 
 @media screen and (max-width: 1200px){
     .main-container{
