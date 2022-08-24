@@ -350,13 +350,13 @@ h6 { font-size: 16px;}
     height: 180px;
     display: block;
     object-fit: cover; /*pics wont stretch but cropped to size*/
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .post-preview{
     background-color: #fff;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .post-title{
