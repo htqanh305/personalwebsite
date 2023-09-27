@@ -416,6 +416,7 @@ h6 { font-size: 16px;}
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+    font-weight: bold;
 }
 
 .snapshot{
